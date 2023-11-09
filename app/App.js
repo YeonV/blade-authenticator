@@ -23,7 +23,7 @@ export default function App({ user, requireMfa }) {
       </div>
 
       {user.mfaEnabled ? (
-        <p>Confratulations, multi factor authentication is enabled.</p>
+        <p>Congratulations, multi factor authentication is enabled.</p>
       ) : (
         <OneTimePassword enabled={false} />
       )}

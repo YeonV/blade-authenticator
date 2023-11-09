@@ -14,8 +14,12 @@ const initialUsers = {
     username: 'emin',
     password: '123',
   },
-  emin: {
+  hamza: {
     username: 'hamza',
+    password: '123',
+  },
+  hamzalocalhost: {
+    username: 'hamzalocalhost',
     password: '123',
   },
 };
